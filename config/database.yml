@@ -4,7 +4,7 @@ default: &default
   database: postgres
   username: postgres
   password:
-  host: db
+  host: 'db'
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
